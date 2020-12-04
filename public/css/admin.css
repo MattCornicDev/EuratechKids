@@ -1,0 +1,26 @@
+:root {
+    /* make the backend contents as wide as the browser window */
+    --body-max-width: 100%;
+    /* change the background color of the <body> */
+    --body-bg: #4E67A9;
+    /* make the base font size smaller */
+    --font-size-base: 13px;
+    /* remove all border radius to make corners straight */
+    --border-radius: 0px;
+
+}
+img {
+   width: 15%;
+}
+
+.user-name {
+    color: #C69820;
+}
+
+.content-header {
+    color: #4E67A9;
+}
+
+.sidebar span {
+    color : #ffffff;
+}

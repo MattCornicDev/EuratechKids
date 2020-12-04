@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+
+{% block body %}
+    <h1 class="text-center text-info text-uppercase"> Inscription à l'atelier : {{ titre }} </h1>
+        {{ form_start(form, {'attr': {'novalidate': 'novalidate'}}) }}
+        <div class="container col-md-6 col-sm-12">
+            {{ form_widget(form)  }}
+            <button type="submit" class="btn btn-lg btn-success mb-5 w-100">Valider</button>
+        </div>
+
+        {{ form_end(form) }}
+
+
+
+
+{% endblock %}
